@@ -22,7 +22,11 @@ header {
 .topnav{
     background-color: #333;
     overflow: hidden;
-    padding: 20px;
+    padding: 10px;
+}
+
+.logo{
+    height: 90px;
 }
 
 nav a{
@@ -56,4 +60,10 @@ a:hover {
 }
 .pasta{
     height: 200px;
+}
+
+.topnav a.active {
+    background-color: #4CAF50; /* Green background for the active link */
+    color: white;
+    width: 10px;
 }
