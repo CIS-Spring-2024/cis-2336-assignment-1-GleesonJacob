@@ -31,6 +31,7 @@ nav a{
     color: white;
     text-decoration: none; /* Removes the underline */
     padding: 10px;
+
     
     
 }
@@ -40,4 +41,19 @@ footer{
     background-color: black;
     padding: 20px;
     color: #fff;
+}
+
+a:hover {
+    color: red
+}
+
+.sandwhich{
+    
+    height: 200px;
+}
+.waffle{
+    height: 200px;
+}
+.pasta{
+    height: 200px;
 }
